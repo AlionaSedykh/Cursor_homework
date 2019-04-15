@@ -4,6 +4,7 @@ This is a list of functions that should be completed.
 
 from typing import Any
 from typing import List
+import string
 
 
 class OurAwesomeException(Exception):
@@ -143,7 +144,6 @@ def alphabet() -> dict:
         alphabet()
         >>> {"a": 1, "b": 2 ...}
     """
-    import string
 
     list_of_characters = string.ascii_lowercase
     numbers = list(range(1, 27))
